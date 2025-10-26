@@ -1,0 +1,13 @@
+# Python cache / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (local-only Python environments we'll create later)
+venv/
+.env/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
