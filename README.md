@@ -1,26 +1,21 @@
 # Task Tracker (CLI)
 
-This is a command-line Task Tracker app I'm building in Python.
+A command-line Task Tracker app written in Python.
 
-## What this project will do
-- Add new tasks
-- View tasks
+You can:
+- Add tasks
+- List tasks
 - Mark tasks as done
-- Track status for each task (todo / in-progress / done)
+- All tasks are persisted to disk in a JSON file so they don't disappear when you close the program
 
-## Why I'm building this
-- I'm learning backend fundamentals like:
-  - how to store data
-  - how to read/update that data
-  - how to design simple logic/flow
-- I don't just want to copy code. I want to understand what the code is doing.
+This project is part of my backend fundamentals practice. I’m building it from scratch instead of copying so I understand:
+- how to structure code across files
+- how to store and update state
+- how to design a simple CLI API
 
-## Current status
-- Local dev environment is set up on Windows 11
-- Python file (`task_tracker.py`) runs from the terminal
-- Git repo has been initialized (not yet pushed to GitHub)
+## How to Run
 
-## Next steps
-- Commit this project with Git
-- Push to GitHub so it's public
-- Start building the actual task tracker features
+First, open Command Prompt and go to the project folder:
+
+```bash
+cd C:\Users\gamin\Desktop\task-tracker

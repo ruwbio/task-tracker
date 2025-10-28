@@ -74,3 +74,12 @@ Note: We use sys.argv in task_tracker.py to read these command-line arguments.
 - Confirmed we can load from disk using: python storage.py
 - Started CLI flow in task_tracker.py (list command)
 - Created dev-notes.md to document how the system works like a real project
+
+2025-10-27
+- Added CLI commands:
+  - list (reads all tasks)
+  - add "description" (creates a new task with unique ID and status 'todo')
+  - done <id> (updates a task's status to 'done')
+- Confirmed tasks persist between runs using tasks.json (JSON file as storage)
+- Confirmed IDs auto-increment and are used to target a specific task
+- README.md updated with usage examples
